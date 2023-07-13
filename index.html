@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>My Portofolio</title>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+      * {
+        font-family: "Montserrat";
+      }
+    </style>
+  </head>
+  <body class="w-screen overflow-x-hidden">
+    <!-- navbar -->
+    <nav
+      class="flex items-center justify-between px-8 py-4 bg-[#03C988] w-full fixed z-[999] max-[500px]:px-4"
+    >
+      <h1 class="font-bold text-xl text-white max-[500px]:text-lg ">Johanes</h1>
+
+      <ul class="flex gap-8 text-white text-lg max-[500px]:gap-[2px] max-[500px]:text-sm">
+        <li
+          class="hover:bg-white hover:text-[#03C988] px-4 max-[500px]:px-1 duration-500 rounded-sm"
+        >
+          <a href="#tentang">Tentang</a>
+        </li>
+        <li
+          class="hover:bg-white hover:text-[#03C988] px-4 max-[500px]:px-1 duration-500 rounded-sm"
+        >
+          <a href="#Keahlian">Keahlian</a>
+        </li>
+        <li
+          class="hover:bg-white hover:text-[#03C988] px-4 max-[500px]:px-1 duration-500 rounded-sm"
+        >
+          <a href="#footer">Kontak</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- section header -->
+    <section
+      class="w-screen h-screen flex items-center justify-between px-[100px] max-[500px]:px-6"
+    >
+      <div class="max-[500px]:text-center">
+        <p class="font-bold text-5xl">Hallo Selamat Datang!</p>
+        <p class="text-2xl mt-2 max-[500px]:hidden">Di Portofolio Saya</p>
+      </div>
+
+      <div
+        class="bg-[#03C988] rounded-xl shadow-[-10px_10px_20px_-15px_black] mb-[-100px] max-[500px]:hidden"
+      >
+        <img
+          src="./img/robot.jpg"
+          width="300px"
+          alt="Foto"
+          class="rounded-xl translate-y-[-20px] translate-x-[20px]"
+        />
+      </div>
+    </section>
+    <!-- end section header -->
+
+    <!-- section 2 about -->
+    <section class="h-screen w-full bg-[#03C988] pt-10" id="tentang">
+      <div class="text-center">
+        <h1 class="font-bold text-5xl text-white">Tentang</h1>
+        <span
+          class="w-[40%] block h-2 bg-white m-auto mt-4 rounded-full max-[500px]:w-[80%]"
+        ></span>
+      </div>
+
+      <div class="flex items-center w-full px-[100px] max-[500px]:px-6 mt-10">
+        <div
+          class="w-[60%] bg-blue-300 rounded-full mr-[100px] mt-4 shadow-[-10px_10px_20px_-20px_black] max-[500px]:hidden"
+        >
+          <img
+            src="./img/about.jpeg"
+            width="100%"
+            class="rounded-full translate-y-[-30px] translate-x-[30px]"
+          />
+        </div>
+
+        <div class="relative py-6">
+          <span
+            class="w-[70%] block h-1 bg-white absolute right-0 top-0 mb-6"
+          ></span>
+          <p class="font-semibold text-xl text-white">
+            Saya adalah fresh graduate dari sekolah SMK Yadika Soreang. <br />
+            Saya menguasai HTML dan CSS, Serta memiliki pengalaman kelas
+            industri selama 1 tahun di PT.Nusantech.
+          </p>
+          <span class="w-[70%] block h-1 bg-white mt-6"></span>
+        </div>
+      </div>
+    </section>
+    <!-- end section 2 about -->
+
+    <!-- section 3 skills -->
+
+    <section class="h-screen w-screen pt-10 px-[100px] max-[500px]:px-6 max-[500px]:h-full max-[500px]:pb-10" id="Keahlian">
+      <div class="text-center">
+        <h1 class="font-bold text-5xl text-[#03C988]">Keahlian</h1>
+        <span
+          class="w-[40%] block h-2 bg-[#03C988] m-auto mt-4 rounded-full max-[500px]:w-full"
+        ></span>
+      </div>
+
+      <div class="flex items-center mt-10 ">
+        <div class="w-full flex flex-col gap-10 ">
+          <div>
+            <p class="font-bold text-[#03C988] text-xl">HTML</p>
+            <div class="flex gap-4">
+              <span
+                class="w-[70%] h-5 bg-gray-200 block overflow-hidden rounded-full"
+                ><span class="w-[60%] h-5 bg-[#03C988] block"></span
+              ></span>
+              <p>60%</p>
+            </div>
+          </div>
+          <div>
+            <p class="font-bold text-[#03C988] text-xl">CSS</p>
+            <div class="flex gap-4">
+              <span
+                class="w-[70%] h-5 bg-gray-200 block overflow-hidden rounded-full"
+                ><span class="w-[45%] h-5 bg-[#03C988] block"></span
+              ></span>
+              <p>45%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-full max-[500px]:hidden">
+          <img
+            src="https://img.freepik.com/premium-vector/web-development-coding-programming-languages-css-html-js-program-code-screen-laptop_530733-2087.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- end section 3 skills -->
+
+    <!-- footer -->
+    <footer class="bg-[#03C988] w-full py-6 px-[100px] flex relative max-[500px]:hidden" id="footer">
+      <div class="w-full">
+        <p class="font-bold text-white text-3xl">Johanes Fajar</p>
+        <span class="w-[200%] block h-1 mt-2 bg-[white] rounded-full"></span>
+
+        <div class="mt-4 flex gap-4">
+          <div>
+            <div>
+              <h1 class="text-lg text-white font-semibold">Email</h1>
+              <input
+                type="email"
+                class="py-2 px-4 rounded-md outline-none"
+                placeholder="email"
+              />
+            </div>
+            <div>
+              <h1 class="text-lg text-white font-semibold">Subject</h1>
+              <input
+                type="text"
+                class="py-2 px-4 rounded-md outline-none"
+                placeholder="subject"
+              />
+            </div>
+          </div>
+
+          <div>
+            <h1 class="text-lg text-white font-semibold">Pesan</h1>
+            <textarea
+              class="py-2 px-4 rounded-md outline-none h-[80%]"
+              placeholder="pesan"
+            ></textarea>
+          </div>
+        </div>
+      </div>
+
+      <div class="w-full flex flex-col items-end gap-6 mt-[80px]">
+        <div class="flex items-center gap-4">
+          <img src="./img/whatsapp.png" width="30px" />
+          <p class="font-semibold text-white text-lg">085315034828</p>
+        </div>
+        <div class="flex items-center gap-4">
+          <img src="./img/gmail.png" width="30px" />
+          <p class="font-semibold text-white text-lg">085315034828</p>
+        </div>
+      </div>
+
+     <a href="#"><img src="./img/back-to-top.png" width="50px" class="absolute top-[20px] right-[50px]"></a> 
+    </footer>
+
+    <footer class="bg-[#03C988] w-full py-4 text-center hidden max-[500px]:block">
+<p class="text-lg font-bold text-white">Created By Johanes</p>
+    </footer>
+    <!-- end footer -->
+  </body>
+</html>
