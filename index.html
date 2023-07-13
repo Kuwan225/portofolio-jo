@@ -21,7 +21,7 @@
     >
       <h1 class="font-bold text-xl text-white max-[500px]:text-lg ">Johanes</h1>
 
-      <ul class="flex gap-8 text-white text-lg max-[500px]:gap-[2px] max-[500px]:text-sm">
+      <ul class="flex gap-8 text-white text-lg max-[500px]:gap-[4px] max-[500px]:text-sm">
         <li
           class="hover:bg-white hover:text-[#03C988] px-4 max-[500px]:px-1 duration-500 rounded-sm"
         >
@@ -117,7 +117,7 @@
                 class="w-[70%] h-5 bg-gray-200 block overflow-hidden rounded-full"
                 ><span class="w-[60%] h-5 bg-[#03C988] block"></span
               ></span>
-              <p>60%</p>
+              <p class="font-semibold text-[#03C988]">60%</p>
             </div>
           </div>
           <div>
@@ -127,7 +127,7 @@
                 class="w-[70%] h-5 bg-gray-200 block overflow-hidden rounded-full"
                 ><span class="w-[45%] h-5 bg-[#03C988] block"></span
               ></span>
-              <p>45%</p>
+              <p class="font-semibold text-[#03C988]">45%</p>
             </div>
           </div>
         </div>
@@ -144,12 +144,12 @@
     <!-- end section 3 skills -->
 
     <!-- footer -->
-    <footer class="bg-[#03C988] w-full py-6 px-[100px] flex relative max-[500px]:hidden" id="footer">
+    <footer class="bg-[#03C988] w-full py-6 px-[100px] max-[500px]:px-6 flex relative max-[500px]:flex-col" id="footer">
       <div class="w-full">
         <p class="font-bold text-white text-3xl">Johanes Fajar</p>
-        <span class="w-[200%] block h-1 mt-2 bg-[white] rounded-full"></span>
+        <span class="w-[200%] max-[500px]:w-full block h-1 mt-2 bg-[white] rounded-full"></span>
 
-        <div class="mt-4 flex gap-4">
+        <div class="mt-4 flex gap-4 max-[500px]:hidden">
           <div>
             <div>
               <h1 class="text-lg text-white font-semibold">Email</h1>
@@ -179,22 +179,18 @@
         </div>
       </div>
 
-      <div class="w-full flex flex-col items-end gap-6 mt-[80px]">
-        <div class="flex items-center gap-4">
+      <div class="w-full flex flex-col items-end gap-6 mt-[80px] max-[500px]:mt-4 max-[500px]:items-start">
+          <a class="flex items-center gap-4" href="https://api.whatsapp.com/send/?phone=62895632153700&text&type=phone_number&app_absent=0">
           <img src="./img/whatsapp.png" width="30px" />
-          <p class="font-semibold text-white text-lg">085315034828</p>
-        </div>
+            <p class="font-semibold text-white text-lg">085315034828</p>
+          </a>
         <div class="flex items-center gap-4">
           <img src="./img/gmail.png" width="30px" />
-          <p class="font-semibold text-white text-lg">085315034828</p>
+          <p class="font-semibold text-white text-lg">johanesfajar15@gmail.com</p>
         </div>
       </div>
 
-     <a href="#"><img src="./img/back-to-top.png" width="50px" class="absolute top-[20px] right-[50px]"></a> 
-    </footer>
-
-    <footer class="bg-[#03C988] w-full py-4 text-center hidden max-[500px]:block">
-<p class="text-lg font-bold text-white">Created By Johanes</p>
+     <a href="#"><img src="./img/back-to-top.png" class=" w-[50px] max-[500px]:w-[40px] absolute top-[20px] right-[50px] max-[500px]:right-[20px]"></a> 
     </footer>
     <!-- end footer -->
   </body>
